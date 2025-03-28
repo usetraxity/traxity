@@ -1,0 +1,78 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "vcs": {
+    "enabled": false,
+    "clientKind": "git",
+    "useIgnoreFile": false,
+    "root": ".",
+    "defaultBranch": "main"
+  },
+  "files": {
+    "ignoreUnknown": false,
+    "ignore": [
+      "**/node_modules/**",
+      "**/dist/**",
+      "**/out/**",
+      "**/.turbo/**",
+      "**/coverage/**",
+      "**/.cache/**"
+    ]
+  },
+  "formatter": {
+    "enabled": true,
+    "useEditorconfig": true,
+    "formatWithErrors": true,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineEnding": "lf",
+    "lineWidth": 100,
+    "attributePosition": "auto",
+    "bracketSpacing": true
+  },
+  "organizeImports": {
+    "enabled": true
+  },
+  "css": {
+    "assists": {
+      "enabled": true
+    },
+    "formatter": {
+      "enabled": true,
+      "indentStyle": "space",
+      "indentWidth": 2,
+      "lineEnding": "lf",
+      "lineWidth": 100,
+      "quoteStyle": "double"
+    },
+    "linter": {
+      "enabled": true
+    },
+    "parser": {
+      "cssModules": true,
+      "allowWrongLineComments": true
+    }
+  },
+  "json": {
+    "assists": {
+      "enabled": true
+    },
+    "formatter": {
+      "enabled": true,
+      "indentStyle": "space",
+      "indentWidth": 2,
+      "lineEnding": "lf",
+      "lineWidth": 100,
+      "trailingCommas": "none"
+    },
+    "linter": {
+      "enabled": true
+    },
+    "parser": {
+      "allowComments": false,
+      "allowTrailingCommas": false
+    }
+  },
+  "assists": {
+    "enabled": true
+  }
+}
