@@ -1,0 +1,27 @@
+{
+  "name": "traxity",
+  "description": "Comprehensive SaaS platform for the fitness community that combines gym management, product marketplace, personalized trainer services and social networking features to share routines and progress. We connect trainers, students and fitness enthusiasts in a complete ecosystem to empower their health and wellness goals.",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "check": "turbo run check",
+    "check-types": "turbo run check-types",
+    "test": "turbo run test",
+    "build": "turbo run build",
+    "clean": "turbo run clean",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/bun": "1.2.8",
+    "husky": "9.1.7",
+    "turbo": "2.5.0",
+    "typescript": "^5.8.2"
+  },
+  "engines": {
+    "bun": ">=1.2.3"
+  },
+  "packageManager": "bun@1.2.5",
+  "workspaces": ["apps/*", "packages/*"]
+}
